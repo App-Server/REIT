@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.center {
+    display: flex;
+    padding: 0 14px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    width: 100%;  
+    z-index: 999;  
+}
+.logo {
+    width: 50%;
+    padding: 20px 0;
+    padding-left: 220px;
+
+}
+
+.menu {
+    width: 50%;
+    text-align: right;
+    padding: 22px ;
+    padding-right: 200px;    
+}
+
+.menu a {
+    color: rgb(160, 126, 1);
+    text-decoration: none;
+    font-family: 'Roboto', 'Ubuntu';
+    margin-right: 25px;
+    font-size: 25px;
+}
+.banner {
+    width: 100%;
+    height: 600px;
+    background: url(asset/banner-1.jpg);
+    background-repeat: no-repeat;   
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo{
+    margin-left: 232px;
+    padding: 40px 0;
+    font-size: 18px;
+}
+
+.grid{
+    width: 55%;
+    margin-left: 230px;    
+}
+.grid .grid-text{
+    width: 80%;
+    margin-left: 500px;
+    margin-top: -350px;
+    font-size: 20px;    
+
+}
+.grid .grid-info{
+    width: 80%;
+    margin-left: 500px;    
+}
+
+p {
+    width: 80%;
+    text-align: justify;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.grid-img-2{
+    margin-top: 250px;
+}
+.grid-text-2{
+    width: 80%;
+    margin-left: 500px;
+    margin-top: -350px;
+    font-size: 20px;
+}
+.grid .grid-info-2{
+    width: 80%;
+    margin-left: 500px;
+}
+
+.grid-img-5{
+    margin-top: 250px;
+}
+.grid-text-5{
+    width: 80%;
+    margin-left: 500px;
+    margin-top: -500px;
+    font-size: 20px;
+}
+.grid .grid-info-5{
+    width: 80%;
+    margin-left: 500px;
+}
