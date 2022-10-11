@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 .center {
     display: flex;
@@ -23,7 +24,8 @@
     width: 50%;
     text-align: right;
     padding: 22px ;
-    padding-right: 200px;    
+    padding-right: 200px;
+    font-family: sans-serif;    
 }
 
 .menu a {
@@ -32,6 +34,7 @@
     font-family: 'Roboto', 'Ubuntu';
     margin-right: 25px;
     font-size: 25px;
+    font-family: sans-serif;
 }
 .banner {
     width: 100%;
@@ -48,6 +51,11 @@
     margin-left: 232px;
     padding: 40px 0;
     font-size: 18px;
+    color: rgb(160, 126, 1);
+}
+
+h2 {
+    color: rgb(160, 126, 1);
 }
 
 .grid{
@@ -99,4 +107,44 @@ p {
 .grid .grid-info-5{
     width: 80%;
     margin-left: 500px;
+}
+
+.whatsapp {
+    position: fixed;
+    top: 82%;
+    right: 1%;
+    padding: 10px;
+    z-index: 10000000;
+}
+
+footer {
+    margin-top: 300px;
+    width: 100%;
+    background: rgb(160, 126, 1);
+}
+
+.main-content {
+    display: flex;
+}
+
+.main-content .box {
+    flex-basis: 60%;
+    padding: 10px;
+}
+
+.box h2 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 220px;
+}
+
+.box .content p {
+    color: #fff;
+}
+
+.box .content {
+    margin-left: 220px;
+    position: relative;
 }
